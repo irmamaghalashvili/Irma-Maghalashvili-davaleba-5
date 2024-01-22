@@ -1,0 +1,228 @@
+.header {
+  position: fixed;
+  top: 53px;
+  width: 1220px;
+  height: 65px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 21.5px;
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-ul {
+  height: 65px;
+  margin-left: 195px;
+  display: flex;
+}
+.nav-li {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  margin-right: 20px;
+}
+.nav-li a {
+  color: rgba(55, 57, 63, 1);
+}
+.vector ::after {
+  content: url(../images/Vector.png);
+  margin-left: 5px;
+}
+.btn {
+    width: 185px;
+    padding: 21px 35px 22px 35px;
+    background: rgba(107, 119, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+}
+.how-we-work {
+  margin-top: 235px;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.how-we-work h4 {
+  width: 119px;
+  height: 22px;
+}
+.how-we-work h2 {
+  width: 283px;
+  height: 48px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.conteiner {
+  width: 1220px;
+  height: 510px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.child-conteiner {
+  margin-top: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 386px;
+  height: 383px;
+  padding: 58px 43px;
+  background: rgba(244, 244, 244, 1);
+}
+.child-conteiner h5 {
+  width: 245px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  color: rgba(55, 57, 63, 1);
+}
+.child-conteiner p {
+  width: 300px;
+  height: 78px;
+  font-size: 18px;
+  line-height: 26.31px;
+  color: rgba(125, 125, 125, 1);
+}
+.child-conteiner h6 {
+  width: 111px;
+  height: 22px;
+  font-size: 18px;
+  color: rgba(107, 119, 229, 1);
+}
+.child-conteiner div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+.child-conteiner-color1 {
+  background: rgba(64, 221, 182, 1);
+}
+
+.child-conteiner-color {
+  background: rgba(107, 119, 229, 1);
+}
+
+.presentation {
+  width: 100%;
+  height: 557px;
+  background: url(../images/Image.jpg) center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.presentation h5 {
+  width: 102px;
+  height: 22px;
+  font-size: 18px;
+  color: rgba(55, 57, 63, 1);
+}
+.presentation h3 {
+  font-family: Poppins;
+  width: 349px;
+  height: 48px;
+  font-size: 40px;
+  color: rgba(55, 57, 63, 1);
+}
+.presentation p {
+  width: 511px;
+  height: 52px;
+  font-size: 18px;
+  line-height: 26.31px;
+  color: rgba(55, 57, 63, 1);
+}
+
+.play-btn {
+  background: rgba(107, 119, 229, 1);
+  border-radius: 50%;
+  width: 64.5px;
+  height: 64.5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.team {
+  margin: 130px auto;
+  width: 1220px;
+  height: 659px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.team h5 {
+  width: 84px;
+  height: 22px;
+  font-size: 18px;
+  color: rgba(55, 57, 63, 1);
+}
+.team h3 {
+  font-family: Poppins;
+  font-weight: 700px;
+  width: 348px;
+  height: 48px;
+  font-size: 40px;
+  color: rgba(55, 57, 63, 1);
+}
+.persons {
+  width: 1220px;
+  height: 532px;
+  display: flex;
+  justify-content: space-between;
+}
+.person1 {
+  width: 386px;
+  height: 532px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: url(../images/person1.jpg) center / cover no-repeat;
+}
+.person2 {
+  width: 386px;
+  height: 532px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: url(../images/person2.jpg) center / cover no-repeat;
+}
+.person3 {
+  width: 386px;
+  height: 532px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: url(../images/person3.jpg) center / cover no-repeat;
+}
+.person-div {
+  margin-bottom: 22px;
+  text-align: center;
+  width: 341px;
+  height: 114px;
+  padding: 24px 69px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.person-div h4 {
+  font-size: 25px;
+  color: rgba(55, 57, 63, 1);
+}
+.person-div h6 {
+  margin-top: 4px;
+  font-size: 18px;
+  color: rgba(125, 125, 125, 1);
+}
